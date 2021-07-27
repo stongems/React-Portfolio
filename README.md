@@ -1,11 +1,10 @@
 # React-Portfolio
-# Budget-Tracker
 
-HW #19 UofA coding bootcamp
+HW #20 UofA coding bootcamp
 
 ## Description
 
-This is a workout tracking application; it runs using mongoose, node, using a mongodb database and is deployed on heroku
+This personal portfolio is built using React 
 
 [Heroku link] https://fitnessms.herokuapp.com/
 

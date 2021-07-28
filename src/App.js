@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Navigation from "./Navigation";
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 
 export default class App extends Component {
     obj = {name: "bottom"};
@@ -8,7 +9,7 @@ export default class App extends Component {
       <div>
         <Navigation title={"NAV"} />
         Main content
-        <Footer footer={obj}/>
+        <Footer title={"FOOT"}/>
       </div>
     );
   }

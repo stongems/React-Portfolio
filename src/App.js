@@ -2,6 +2,7 @@ import React, { Component, Suspense, lazy } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navigation from "./components/Layout/Navigation";
 import Footer from "./components/Layout/Footer";
+import "./styles/reset.css";
 
 const Home = lazy(() => import("./components/Home/Home"));
 const About = lazy(() => import("./components/About/About"));

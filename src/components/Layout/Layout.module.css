@@ -1,12 +1,23 @@
-div {
-    background-color: orange;
+.navbar {
+    background-color:  gray;
 }
 
-ul {
+.navbar__ul {
     display: flex;
     justify-content: space-between;
 }
 
-li {
+.navbar__li {
     list-style-type: none;
+    padding: 1em;
+}
+
+.navbar__li a {
+text-decoration: none;
+color:white;
+padding: 1em;
+}
+
+.navbar__li a:hover {
+    color:skyblue;
 }

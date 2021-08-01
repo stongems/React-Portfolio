@@ -8,15 +8,15 @@ export default function Navigation({ title }) {
   console.log(title);
   return (
     <div>
-      {title}
+      
       <nav className={styles.navbar}>
         <ul className={styles.navbar__ul}>
-          <li className={styles.navbar__li}>
-            <Link to="/">Home</Link>
+          <li className={styles.navbar__li} style={{ fontWeight: "bolder", fontSize: "1.2rem"}}>
+            <Link to="/">{title}</Link>
           </li>
-          <li className={styles.navbar__li}>
-            <Link to="/about">About</Link>
-          </li>
+          <li className={styles.navbar__li}><Link to="/about">About</Link></li>
+          <li className={styles.navbar__li}><Link to="/work">Work</Link></li>
+          <li className={styles.navbar__li}><Link to="/Contact">Contact</Link></li>
         </ul>
       </nav>
     </div>

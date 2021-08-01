@@ -15,12 +15,12 @@
 
 .navbar__li a {
 text-decoration: none;
-color:white;
+color:#E7ECEF;
 padding: 1em;
 }
 
 .navbar__li a:hover {
-    color:skyblue;
+    color:#E7ECEF;
 }
 
 .navbar__spacer {

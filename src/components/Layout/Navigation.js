@@ -11,7 +11,7 @@ export default function Navigation({ title }) {
       
       <nav className={styles.navbar}>
         <ul className={styles.navbar__ul}>
-          <li className={styles.navbar__li} style={{ fontWeight: "bolder", fontSize: "1.2rem"}}>
+          <li className={styles.navbar__li} style={{ fontWeight: "bolder", fontSize: "1.2rem" }}>
             <Link to="/">{title}</Link>
           </li>
           <li className={styles.navbar__spacer}></li>

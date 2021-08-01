@@ -1,0 +1,12 @@
+div {
+    background-color: orange;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+}

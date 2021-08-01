@@ -1,5 +1,6 @@
 .navbar {
-    background-color:  gray;
+    background-color: #F05D5E;
+    ;
 }
 
 .navbar__ul {
@@ -22,3 +23,6 @@ padding: 1em;
     color:skyblue;
 }
 
+.navbar__spacer {
+    flex: 1 0 auto;
+}

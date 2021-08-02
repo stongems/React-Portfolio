@@ -1,9 +1,9 @@
 import React from 'react'
 
-export default function Work() {
+export default function Portfolio() {
     return (
         <div>
-            Work
+            Portfolio
         </div>
     )
 }

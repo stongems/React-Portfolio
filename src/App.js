@@ -7,7 +7,7 @@ import "./styles/main.css";
 
 const Home = lazy(() => import("./pages/Home/Home"));
 const About = lazy(() => import("./pages/About/About"));
-const Work = lazy(() => import("./pages/Work/Work"));
+const Portfolio = lazy(() => import("./pages/Portfolio/Portfolio"));
 const Contact = lazy(() => import("./pages/Contact/Contact"));
 
 export default class App extends Component {
@@ -21,7 +21,7 @@ export default class App extends Component {
           <Switch>
             <Route exact path="/"><Home /></Route>
             <Route path="/about"><About /></Route>
-            <Route path="/work"><Work /></Route>
+            <Route path="/portfolio"><Portfolio /></Route>
             <Route path="/contact"><Contact /></Route>
           </Switch>
           </div>

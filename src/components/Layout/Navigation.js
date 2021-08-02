@@ -16,7 +16,7 @@ export default function Navigation({ title }) {
           </li>
           <li className={styles.navbar__spacer}></li>
           <li className={styles.navbar__li}><Link to="/about">About</Link></li>
-          <li className={styles.navbar__li}><Link to="/work">Work</Link></li>
+          <li className={styles.navbar__li}><Link to="/portfolio">Portfolio</Link></li>
           <li className={styles.navbar__li}><Link to="/Contact">Contact</Link></li>
         </ul>
       </nav>

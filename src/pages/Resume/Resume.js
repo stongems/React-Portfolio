@@ -1,10 +1,11 @@
 import React from "react";
-import Hero from "../../components/Hero/Hero";
+import {useHistory} from "react-router-dom";
 
 export default function Resume() {
+  const history = useHistory();
   return (
-    <div>
-      <Hero title="Resume" subtitle="Subtitle"/>
+    <div style={{ display: "flex", justifyContent: "center"}}>
+      <a href='https://www.linkedin.com/in/matthew-st-onge-6a8038209' target="blank">My Resume</a>
     </div>
   );
 }

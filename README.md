@@ -100,61 +100,12 @@ This personal portfolio is built using React
 
 ## Installation
 
-Right click on server.js file run integrated terminal 
-
 ```
 npm i
 ```
 
-If the package.json file is missing, run these following commands:
-
-```
-npm init -y
-```
-```
-npm i inquirer
-```
-```
-npm i mysql
-```
 
 ## Usage
-
-To initialize the app, right-click on the db/ directory and open the integrated terminal. Start the mysql dependency with this command:
-
-```
-mysql -u root
-```
-
-To create the tables copy the absolute path of the schema.sql. Then type in source in the terminal and paste the path:
-
-```
-source: <file path to schema.sql>
-```
-
-If you would like to seed the table with the created values, then copy the "absolute path" to seed.sql and run this in the terminal:
-
-```
-source: <file path to seed.sql>
-```
-
-Then exit mysql
-
-```
-exit
-```
-
-Next we want to seed the data
-
-```
-npm run seed
-```
-
-To view the tables and edit their content, run the following command:
-
-```
-node server.js
-```
 
 
 ## Credits

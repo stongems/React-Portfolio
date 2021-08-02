@@ -26,3 +26,9 @@ padding: 1em;
 .navbar__spacer {
     flex: 1 0 auto;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}

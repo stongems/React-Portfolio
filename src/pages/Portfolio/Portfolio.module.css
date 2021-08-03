@@ -1,10 +1,14 @@
 .card_container {
     display: flex;
-    align-items: space-between;
+    justify-content: flex-start;
     flex-wrap: wrap;
     height: 300px;
+    width: 100%;
 }
 
-.card {
+.cards {
     width: 30%;
+    padding: 1.5%
+
+    
 }

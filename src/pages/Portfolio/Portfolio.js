@@ -1,18 +1,34 @@
-import React from 'react'
-import Hero from '../../components/Hero/Hero'
-import Card from '../components/Card/Card'
+import React from "react";
+import Card from "../../components/Card/Card";
+import styles from "./Portfolio.module.css";
 
 export default function Portfolio() {
-    return (
-        <div>
-            {/* <Hero title="Portfolio" subtitle="Here" /> */}
-            <h1>Portfolio</h1>
-            <Card className="card" title="Phoenix Sky" img ={}/>
-            <Card className="card" title="Employee Management System" img ={}/>
-            <Card className="card" title="Password Generator" img ={}/>
-            <Card className="card" title="Coding Quiz" img ={}/>
-            <Card className="card" title="Object Oriented Programing" img ={}/>
-            <Card className="card" title="Portfolio 2.0" img ={}/>
+  return (
+    <div>
+      {/* <Hero title="Portfolio" subtitle="Here" /> */}
+      <h1>Portfolio</h1>
+      <div className={styles.card_container}>
+        <div className={styles.cards}>
+          <Card title="Phoenix Sky" />
         </div>
-    )
+        <div className={styles.cards}>
+          <Card title="Employee Management System" />
+        </div>
+        <div className={styles.cards}>
+          <Card title="Password Generator" />
+        </div>
+      </div>
+      <div className={styles.card_container}>
+        <div className={styles.cards}>
+          <Card title="Coding Quiz" />
+        </div>
+        <div className={styles.cards}>
+          <Card title="Object Oriented Programing" />
+        </div>
+        <div className={styles.cards}>
+          <Card title="Portfolio 2.0" />
+        </div>
+      </div>
+    </div>
+  );
 }

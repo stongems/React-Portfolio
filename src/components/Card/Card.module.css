@@ -1,0 +1,16 @@
+.card {
+ background-color: darkgray;
+ color:black;
+ border-radius: 2px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+}
+
+.title{
+    background-color: darkorange;
+    width: 100%;
+    height: 100px;
+}

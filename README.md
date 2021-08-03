@@ -118,3 +118,11 @@ If you feel you have any questions, please feel free to reach out to me at stong
 
 ## Author
 Matthew St. Onge
+
+
+
+<i class="fab fa-facebook-square"></i>
+<i class="fab fa-linkedin"></i>
+<i class="fab fa-github-square"></i>
+
+

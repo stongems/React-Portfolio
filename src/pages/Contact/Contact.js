@@ -29,6 +29,7 @@ export default function Contact() {
           type="text"
           value={to}
           onChange={(event) => setTo(event.target.value)}
+          required
         />
         <br />
         <br />
@@ -38,6 +39,7 @@ export default function Contact() {
           type="text"
           value={from}
           onChange={(event) => setFrom(event.target.value)}
+          required
         />
         <br />
         <br />
@@ -48,6 +50,7 @@ export default function Contact() {
           rows="10"
           value={message}
           onChange={(event) => setMessage(event.target.value)}
+          required
         />
         <br />
         <br />

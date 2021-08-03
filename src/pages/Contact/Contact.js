@@ -2,6 +2,9 @@ import React, { useState } from "react";
 import Hero from "../../components/Hero/Hero";
 
 export default function Contact() {
+    const [to, setTo] = useState("");
+    const [from, setFrom] = useState("");
+    const [message, setMessage] = useState("");
   return (
     <div>
       <h1 style={{ marginBottom: 50, textAlign: "center" }}>Contact</h1>
@@ -16,17 +19,17 @@ export default function Contact() {
       >
         <label>To:</label>
         <br />
-        <input type="text required" />
+        <input type="text" value={} onChange={} />
         <br />
         <br />
         <label for="from">From:</label>
         <br />
-        <input type="text required" />
+        <input type="text" value={} onChange={} />
         <br />
         <br />
         <label>Message:</label>
         <br />
-        <textarea name="message" rows="10" required />
+        <textarea name="message" rows="10" value={} onChange={} />
         <br />
         <br />
         <button type="sumbit">Submit</button>

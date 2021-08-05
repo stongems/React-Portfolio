@@ -7,7 +7,7 @@ export default function Card({image, title, link}) {
         return image ? <img className={styles.image} src={image.src} alt={image.alt} /> : null;
     }
     return (
-        <a href={link} target="_blank" style={{ textDecoration: "none"}}>
+        <a href={link} target="_blank" rel="noreferrer" style={{ textDecoration: "none"}}>
         <div className={styles.card}>
             {renderImage()}
             <h1 className={styles.title}>{title}</h1>

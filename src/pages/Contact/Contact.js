@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Hero from "../../components/Hero/Hero";
 
 export default function Contact() {
   const [to, setTo] = useState("");
@@ -54,7 +53,7 @@ export default function Contact() {
         />
         <br />
         <br />
-        <button type="sumbit">Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );

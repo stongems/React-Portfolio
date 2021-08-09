@@ -5,10 +5,7 @@ import Footer from "./components/Layout/Footer";
 import "./styles/reset.css";
 import "./styles/main.css";
 
-const Resume = lazy(() => import("./pages/Resume/Resume"));
-const About = lazy(() => import("./pages/About/About"));
-const Portfolio = lazy(() => import("./pages/Portfolio/Portfolio"));
-const Contact = lazy(() => import("./pages/Contact/Contact"));
+
 
 export default class App extends Component {
   obj = { name: "bottom" };

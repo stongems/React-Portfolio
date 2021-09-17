@@ -4,11 +4,11 @@ import styles from "./Portfolio.module.css";
 
 export default function Portfolio() {
     const img1 = { src: "./assets/code-quiz1.png", alt: "Code Quiz"};
-    const img2 = { src: "./assets/Employee-Management-System.png", alt: "Code Quiz"};
-    const img3 = { src: "./assets/hwSnipOOP.png", alt: "Code Quiz"};
-    const img4 = { src: "./assets/passWordGen.png", alt: "Code Quiz"};
-    const img5 = { src: "./assets/portReadme1.png", alt: "Code Quiz"};
-    const img6 = { src: "./assets/pSky1.png", alt: "Code Quiz"};
+    const img2 = { src: "./assets/Employee-Management-System.png", alt: "Employee Management System"};
+    const img3 = { src: "./assets/hwSnipOOP.png", alt: "Home Work"};
+    const img4 = { src: "./assets/passWordGen.png", alt: "Password Gen"};
+    const img5 = { src: "./assets/portReadme1.png", alt: "Portfolio"};
+    const img6 = { src: "./assets/pSky1.png", alt: "Travel Project"};
   return (
     <div>
       {/* <Hero title="Portfolio" subtitle="Here" /> */}
